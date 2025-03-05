@@ -118,8 +118,7 @@ html {
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
-    
-    margin-bottom: 3rem;
+     margin-bottom: 1rem;
 }
 
 .btn button {
@@ -133,10 +132,11 @@ html {
     color: black;
     font-weight: 700;
     transition: all 400ms ease-in;
-    margin-top: 5rem;
+    margin-top: 1rem;
     text-align: center;
     line-height: 60px;
     text-decoration: none;
+    
 }
 .btn .reservar {
     background-color: #ffc506;
@@ -150,7 +150,8 @@ html {
 }
 
 .btn .escolher {
-    background-color: black;
+    background-color:#ffc506;
+    border: 1px solid #ffc506;
     color: black
 }
 
@@ -158,6 +159,7 @@ html {
     border: 1px solid #ffc506;
     background-color: transparent;
     color: #ffc506;
+    
 }
 
 
