@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" 
+    
+    crossorigin="anonymous"></script>
+   
     <title>PizzariaD'amel</title>
+
 </head>
 <body>
     <header>
@@ -22,8 +28,8 @@
                     <li><a href="#sobrenos">Sobre nós</a></li>
                     <li><a href="#cardapio">Cardápio</a></li>
                     <li><a href="#contatos">Contatos</a></li>
-                    <li><a href="https://www.instagram.com/damelpizzaria/"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://wa.me/5511947636920?text=Olá,%20gostaria%20de%20reservar%20uma%20pizza"><i class="bi bi-whatsapp"></i></a></li>
+                    <li><a href="https://www.instagram.com/damelpizzaria/" target="_blank" rel="external"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/5511947636920?text=Olá,%20gostaria%20de%20pedir%20uma%20pizza" target="_blank" rel="external"><i class="bi bi-whatsapp"></i></a></li>
                     <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
 
                 </ul>
@@ -44,8 +50,8 @@
             <h1>Deixe seu dia mais saboroso!!!</h1>
             <h2>Uma experiência irresistível em cada fatia</h2>
             <div class="btn">
-                <button><a href="https://wa.me/5511947636920?text=Olá,%20gostaria%20de%20reservar%20uma%20mesa" class="reservar">Reserve a sua!</a></button>
-                <button><a href="#cardapio" class="escolher">Escolher a sua pizza!</a></button>
+                <a href="https://wa.me/5511947636920?text=Olá,%20gostaria%20de%20pedir%20uma%20pizza" target="_blank" rel="external" class="reservar">Reserve a sua!</a>
+                <a href="#cardapio" class="escolher">Escolher a sua pizza!</a>
             </div>
         </div>    
     </section>    
@@ -54,11 +60,20 @@
         <div class="main">
             <div class="contentsobre">
                 <h2>Sobre nós</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus fuga architecto tenetur magnam voluptatem debitis magni, vitae blanditiis animi assumenda veniam optio omnis similique aspernatur deserunt ducimus culpa id.
-                Dolor voluptatibus consequatur, distinctio architecto accusantium eius tenetur officiis vero doloribus iusto quo. Explicabo unde eum accusamus sit possimus voluptatum non nemo quod, minima mollitia autem rerum magni facere cupiditate.
-                Eum a rem harum neque? Et minus debitis possimus excepturi, quisquam aliquam ducimus iure dolore doloremque accusamus natus veritatis esse quas. Harum accusantium, tenetur dolorum quidem dicta quas eius. Iste.
-                Ratione iusto dolore dolor nisi illo voluptate est itaque, facilis exercitationem cumque ipsam magnam distinctio molestias numquam nesciunt similique consectetur architecto quisquam ipsum enim at natus. Quod aut voluptatum quo.
-                Nobis deleniti doloribus illd dolorum tenetur inventore architecto at quam repellendus, quidem earum nisi! Similique vel natus perferendis illo, sapiente harum molestiae blanditiis architecto.</p>
+                <p>
+                    Fundada em 2020, a Pizzaria D'amel nasceu do sonho de levar mais sabor e alegria para a mesa das famílias da nossa cidade. Com receitas exclusivas, ingredientes frescos e muito carinho em cada preparo, conquistamos nossos clientes com pizzas irresistíveis e atendimento acolhedor. Nossa missão é proporcionar momentos especiais!
+                </p>
+            <h3>Missão</h3>
+               <p>Oferecer pizzas de alta qualidade, feitas com amor e dedicação, proporcionando momentos de felicidade para nossos clientes.</p>
+
+            <h3>Visão</h3>
+                <p>Ser reconhecida como a melhor pizzaria da região, destacando-se pela excelência no sabor e no atendimento.</p>
+            <h3>Valores</h3>
+        
+            <p>
+             Qualidade em cada detalhe, atendimento acolhedor, respeito aos clientes e colaboradores, inovação e criatividade
+            </p>
+
             </div>     
             <div class="img-cozinha">
                 <img src="imagens/cozinha.jpg" alt="Cozinha">
@@ -134,7 +149,7 @@
                         <h4>8 fatias <span>R$45,00</span></h4>
                         <h4>12 fatias <span>R$55,00</span></h4>
                         <a href="https://wa.me/5511947636920?text=Olá,%20gostaria%20de%20pedir%20uma%20pizza%20prestígio" class="pedir">Pedir agora</a>
-                    </div> 
+                    </div>  
                 
                 </div>
                 
@@ -142,8 +157,9 @@
 
     </section>
 
+
     <section class="contatos" id="contatos">
-        <h3>Contatos</h3>
+        <h3>Contatos</h3> 
         <div class="contatos-secao">
             <div>
                 <i class="fas fa-phone"></i>
@@ -151,7 +167,7 @@
             </div>
             <div>
                 <i class="fab fa-instagram"></i>
-                <span>@PIZZARIAD'AMEL</span>
+                <span>@PIZZARIAD'AMEL</a></span>
             </div>
             <div>
                 <i class="bi-whatsapp"></i>
@@ -162,7 +178,7 @@
     <footer>
         <h4>PROJETO PIZZARIA</h4>
     </footer>
-
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
+    
 </body>
 </html>

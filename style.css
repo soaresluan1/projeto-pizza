@@ -121,7 +121,7 @@ html {
      margin-bottom: 1rem;
 }
 
-.btn button {
+btn button {
     display: inline-block;
     width: 230px;
     height: 60px;
@@ -170,10 +170,42 @@ html {
 }
 
 .btn {
-    width: 480px;
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: center;
+    gap: 1rem; /* Espaçamento entre os botões */
+    margin-top: 1rem;
+}
+
+.btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ffc506;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn .reservar {
+    background-color: #ffc506;
+    color: black;
+}
+
+.btn .reservar:hover {
+    background-color: transparent;
+    color: #ffc506;
+}
+
+.btn .escolher {
+    background-color: #ffc506;
+    color: black;
+}
+
+.btn .escolher:hover {
+    background-color: transparent;
+    color: #ffc506;
 }
 
 /* Cardápio */
@@ -184,7 +216,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(15, 15, 15, 0.8)), url(/img/cardapio.jpg);
+    background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(15, 15, 15, 0.8)), url(imagens/cardapio.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,12 +318,28 @@ html {
     justify-content: center;
 }
 
+.sobre-nos, .sobre-nos * {
+    font-size: 18px; /* Escolha o tamanho desejado */
+}
+
+.sobre-nos ul, .sobre-nos li {
+    font-size: 18px;
+}
+
 .contentsobre {
     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contentsobre p,
+.contentsobre ul {
+    text-align: left;
+    width: 600px;
+    margin: 0 auto 1rem 60px; /* 60px de espaço à esquerda */
+    padding-left: 20px;        /* recuo interno para os itens da lista */
 }
 
 .main{
@@ -315,7 +363,7 @@ html {
 }
 
 .contentsobre p {
-   text-align: center;
+   text-align: left;
    font-size: 1.8rem;
    width: 600px;
 }
@@ -367,6 +415,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+body {
+    font-size: 18px;
 }
 
 @media (max-width: 1200px) {
